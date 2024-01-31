@@ -1,0 +1,21 @@
+{
+  "name": "cds-entra-id",
+  "version": "1.0.0",
+  "description": "Microsoft Entra ID Authorization extension for SAP Cloud Application Programming Model",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sap",
+    "cap",
+    "cds",
+    "entra id",
+    "authorization"
+  ],
+  "author": "Volker Buzek <volker.buzek@js-soft.com>",
+  "license": "Apache-2.0",
+  "peerDependencies": {
+    "@sap/cds": "^7"
+  }
+}
