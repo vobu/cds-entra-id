@@ -4,7 +4,8 @@
   "description": "Microsoft Entra ID Authorization extension for SAP Cloud Application Programming Model",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "commit-and-tag-version"
   },
   "keywords": [
     "sap",
@@ -17,5 +18,8 @@
   "license": "Apache-2.0",
   "peerDependencies": {
     "@sap/cds": "^7"
+  },
+  "devDependencies": {
+    "commit-and-tag-version": "^12.2.0"
   }
 }
