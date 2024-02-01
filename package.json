@@ -1,6 +1,6 @@
 {
   "name": "cds-entra-id",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Microsoft Entra ID Authorization extension for SAP Cloud Application Programming Model",
   "main": "index.js",
   "scripts": {
