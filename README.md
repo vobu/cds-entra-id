@@ -54,8 +54,8 @@ The function import `ok()` requires any authenticated user, no matter the role o
 
 However, `nok()` requires the logged in user 
 
-- to be a member of the `Entra ID`  group '7b428506-466b-45b0-9cbf-4e1b20734874' or
-- a member of the `App role`  'test-app-role'.
+- to be a member of the `Entra ID` group '7b428506-466b-45b0-9cbf-4e1b20734874' or
+- a member of the `App role` 'test-app-role'.
 
 Why a GUID for an Entra ID group and not a regular name? Entra ID passes out group memberships only as GUIDs in order to prevent wrongful impersonation. As the note on https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/how-to-connect-fed-group-claims explains: 
 
