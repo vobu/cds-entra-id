@@ -4,7 +4,7 @@
   "description": "Microsoft Entra ID Authorization extension for SAP Cloud Application Programming Model",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vitest",
     "release": "commit-and-tag-version",
     "prepare": "husky"
   },
@@ -24,6 +24,7 @@
     "@commitlint/cli": "^18.6.0",
     "@commitlint/config-conventional": "^18.6.0",
     "commit-and-tag-version": "^12.2.0",
-    "husky": "^9.0.7"
+    "husky": "^9.0.7",
+    "vitest": "^1.2.2"
   }
 }
