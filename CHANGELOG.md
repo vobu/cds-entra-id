@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.0.4](https://github.com/vobu/cds-entra-id/compare/v1.0.3...v1.0.4) (2024-02-01)
+
+
+### Bug Fixes
+
+* user.roles is an object... ([dffb12b](https://github.com/vobu/cds-entra-id/commit/dffb12b3cc0edc1e6d5ab59abdf962ed52f3a1df))
+
 ## [1.0.3](https://github.com/vobu/cds-entra-id/compare/v1.0.2...v1.0.3) (2024-02-01)
 
 
