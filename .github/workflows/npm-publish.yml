@@ -1,9 +1,10 @@
 name: publish to npmjs
 
 on:
-  push:
-    tags:
-      - "*"
+  workflow_run:
+    workflows: [cut gh release]
+    types:
+      - completed
 
 jobs:
   build:
@@ -16,6 +17,7 @@ jobs:
           node-version: "20"
           registry-url: "https://registry.npmjs.org"
       - run: npm ci
+      # tests are run as part of the cut gh release workflow
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
