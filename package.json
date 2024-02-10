@@ -9,6 +9,14 @@
     "entra id",
     "authorization"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vobu/cds-entra-id.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vobu/cds-entra-id/issues"
+  },
+  "homepage": "https://github.com/vobu/cds-entra-id?tab=readme-ov-file#cds-entra-id",
   "license": "Apache-2.0",
   "author": "Volker Buzek <volker.buzek@js-soft.com>",
   "main": "index.js",
